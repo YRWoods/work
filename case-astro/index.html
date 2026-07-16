@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Case study — AstroNavigations Kajabi site structure</title>
+  <meta name="description" content="In-depth case: premium astrology site + funnel prebuild for $5–7k Contra job." />
+  <style>
+    :root {
+      --bg: #0a0b12; --fg: #f4f0e8; --muted: #9b96a8; --gold: #e8c872;
+      --card: #141622; --line: rgba(255,255,255,0.09);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.55; }
+    .wrap { max-width: 40rem; margin: 0 auto; padding: 2rem 1.2rem 4rem; }
+    .kicker { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+    h1 { font-size: clamp(1.55rem, 4vw, 2.05rem); letter-spacing: -0.03em; margin: 0.4rem 0 0.6rem; line-height: 1.2; }
+    .lede { color: var(--muted); font-size: 1.05rem; margin: 0 0 1.5rem; }
+    h2 { font-size: 1.05rem; margin: 1.75rem 0 0.5rem; }
+    p, li { color: var(--muted); }
+    ul { padding-left: 1.15rem; }
+    li { margin: 0.35rem 0; }
+    .meta { display: grid; gap: 0.65rem; margin: 1.25rem 0; }
+    @media (min-width: 560px) { .meta { grid-template-columns: 1fr 1fr; } }
+    .meta div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.85rem 1rem; }
+    .meta strong { display: block; color: var(--fg); font-size: 0.8rem; margin-bottom: 0.2rem; }
+    a { color: var(--gold); }
+    .note { border-left: 3px solid var(--gold); padding-left: 0.9rem; margin: 1rem 0; font-size: 0.95rem; }
+    footer { margin-top: 2rem; font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">Case study · hire proof</div>
+    <h1>Premium astrology brand on Kajabi — structure first, then platform</h1>
+    <p class="lede">
+      Prebuild for AstroNavigations (Florida, USA) · $5–7k · 8 weeks · already applied.
+      Full site shell + funnel logic live in HTML; implement in Kajabi with client access.
+    </p>
+
+    <div class="meta">
+      <div><strong>Client</strong>AstroNavigations · premium readings brand</div>
+      <div><strong>Budget</strong>$5,000–$7,000 · one-time · 8 weeks</div>
+      <div><strong>Deliverables</strong>Site · 3 sales · funnel · payments · tags · handover</div>
+      <div><strong>Status</strong>Applied · pack live · grow into Kajabi</div>
+    </div>
+
+    <h2>Problem</h2>
+    <p>
+      Not a passive course site — a service brand that needs homepage, three reading offers with polished hover,
+      payments/tax, lead + tripwire funnel, buyer tagging, confirmations, and clean handover.
+    </p>
+
+    <h2>Approach</h2>
+    <ul>
+      <li>Prove UX and IA in <strong>clickable HTML</strong> before waiting on platform login</li>
+      <li>Map every page to Kajabi surface (site pages, offers, funnels, tags, automations)</li>
+      <li>Honesty: learn Kajabi with docs + collaborator access — no fake decade-expert claim</li>
+    </ul>
+
+    <h2>What exists now</h2>
+    <ul>
+      <li><a href="../../astro/homepage.html">Homepage shell</a></li>
+      <li><a href="../../astro/">Readings overview + glow cards</a></li>
+      <li>Sales: <a href="../../astro/sales-birth.html">birth</a> · <a href="../../astro/sales-astro.html">astro</a> · <a href="../../astro/sales-rel.html">relationship</a></li>
+      <li><a href="../../astro/funnel.html">Lead</a> · <a href="../../astro/tripwire.html">tripwire $27</a> · <a href="../../astro/confirm.html">confirm</a></li>
+      <li><a href="../../astro/emails.html">Email sequence draft</a> · <a href="../../astro/HANDOVER.md">handover</a> · <a href="../../astro/TEST.html">E2E test UI</a></li>
+    </ul>
+    <p class="note">Full pack: <a href="../../astro/">astro-nav-proof/</a></p>
+
+    <h2>Kajabi map (summary)</h2>
+    <ul>
+      <li>Marketing → Funnels for opt-in + emails + offer</li>
+      <li>Offers + Kajabi Payments + tax settings test</li>
+      <li>Tags: lead / buyer-* / tripwire-buyer + automations</li>
+      <li>Custom CSS for card hover glow (demo already matches the ask)</li>
+    </ul>
+
+    <h2>Result (honest)</h2>
+    <ul>
+      <li>Client can review structure today without granting access first</li>
+      <li>Phase 1 architecture notes for future Lemon/Paddle in handover</li>
+      <li>paid:false until escrow/hire — no invent metrics</li>
+    </ul>
+
+    <footer>
+      <a href="../case-ago/">AGO case</a> ·
+      <a href="../../">all applied</a> ·
+      <a href="https://contra.com/ye_ren_8gy0mfv2">Contra</a>
+    </footer>
+  </div>
+</body>
+</html>

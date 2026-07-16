@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Case study — AGO ad LP pack (prebuild)</title>
+  <meta name="description" content="In-depth case: 3 conversion LPs prebuilt for American Gun Owners Contra job." />
+  <style>
+    :root {
+      --bg: #0b0e12; --fg: #f4f6f8; --muted: #97a0ab; --line: rgba(255,255,255,0.09);
+      --blue: #3b82f6; --card: #141a22;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.55; }
+    .wrap { max-width: 40rem; margin: 0 auto; padding: 2rem 1.2rem 4rem; }
+    .kicker { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue); font-weight: 700; }
+    h1 { font-size: clamp(1.6rem, 4vw, 2.1rem); letter-spacing: -0.03em; margin: 0.4rem 0 0.6rem; line-height: 1.2; }
+    .lede { color: var(--muted); font-size: 1.05rem; margin: 0 0 1.5rem; }
+    h2 { font-size: 1.05rem; margin: 1.75rem 0 0.5rem; }
+    p, li { color: var(--muted); }
+    ul { padding-left: 1.15rem; }
+    li { margin: 0.35rem 0; }
+    .meta {
+      display: grid; gap: 0.65rem; margin: 1.25rem 0 1.5rem;
+    }
+    @media (min-width: 560px) { .meta { grid-template-columns: 1fr 1fr; } }
+    .meta div {
+      background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.85rem 1rem;
+    }
+    .meta strong { display: block; color: var(--fg); font-size: 0.8rem; margin-bottom: 0.2rem; }
+    .shots {
+      display: grid; gap: 0.75rem; margin: 1rem 0 1.5rem;
+    }
+    .shot {
+      border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--card);
+    }
+    .shot a {
+      display: block; padding: 1rem 1.05rem; color: var(--fg); text-decoration: none; font-weight: 700;
+    }
+    .shot p { margin: 0; padding: 0 1.05rem 1rem; font-size: 0.9rem; }
+    .note {
+      border-left: 3px solid var(--blue); padding: 0.35rem 0 0.35rem 0.9rem; margin: 1rem 0;
+      color: var(--muted); font-size: 0.95rem;
+    }
+    a.inline { color: #60a5fa; }
+    footer { margin-top: 2rem; font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">Case study · hire proof</div>
+    <h1>Three ad landing pages for American Gun Owners — built before the call</h1>
+    <p class="lede">
+      Prebuild for a live Contra job (Tim Napier / AGO). Not a pitch deck.
+      Clickable pages matching kit / training / CCW conversion paths.
+    </p>
+
+    <div class="meta">
+      <div><strong>Client shape</strong>US ecommerce · kits · public brand site</div>
+      <div><strong>Job</strong>LP designer/builder · $1.2–1.8k · ~1 week</div>
+      <div><strong>Stack</strong>HTML · CSS · JS · mobile sticky CTAs</div>
+      <div><strong>Status</strong>Applied · proof live · paid:false until hire</div>
+    </div>
+
+    <h2>Problem</h2>
+    <p>
+      Paid traffic needs focused pages — not the full catalog.
+      First-time buyers get lost; kit choice, training, and CCW path need separate stories with one clear next step each.
+    </p>
+
+    <h2>What I shipped</h2>
+    <ul>
+      <li><strong>LP1 — Kit match quiz</strong> · hero, prices, steps, grid, zip quiz, sticky CTA</li>
+      <li><strong>LP2 — Training access</strong> · benefit lead, four paths, shop sticky</li>
+      <li><strong>LP3 — CCW path</strong> · four steps, disclaimer-forward, kit CTA</li>
+    </ul>
+    <p class="note">Brand-close colors and public site patterns — final legal copy and assets swap when hired.</p>
+
+    <h2>Live pages</h2>
+    <div class="shots">
+      <div class="shot">
+        <a href="../../ago/">Pack index →</a>
+        <p>All three LPs + brief for the client.</p>
+      </div>
+      <div class="shot">
+        <a href="../../ago/lp1-kit-quiz.html">LP1 kit quiz →</a>
+        <p>Interactive match flow · mobile sticky.</p>
+      </div>
+      <div class="shot">
+        <a href="../../ago/lp2-training.html">LP2 training →</a>
+        <p>Training-included story for ad traffic.</p>
+      </div>
+      <div class="shot">
+        <a href="../../ago/lp3-ccw.html">LP3 CCW →</a>
+        <p>Path framing with disclaimer language.</p>
+      </div>
+    </div>
+
+    <h2>Result (honest)</h2>
+    <ul>
+      <li>Proof exists before talk — client can click, not imagine</li>
+      <li>Scope clear: HTML conversion LPs, not full app rebuild</li>
+      <li>No invent paid · no fake metrics · waiting on hire/reply</li>
+    </ul>
+
+    <footer>
+      More:
+      <a class="inline" href="../../">all applied</a> ·
+      <a class="inline" href="../case-astro/">AstroNavigations case</a> ·
+      <a class="inline" href="https://contra.com/ye_ren_8gy0mfv2">Contra</a>
+    </footer>
+  </div>
+</body>
+</html>
